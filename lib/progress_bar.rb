@@ -1,4 +1,3 @@
-
 require 'options'
 require 'highline'
 
@@ -76,7 +75,7 @@ class ProgressBar
   protected
 
   def print(str)
-    $stderr.write str
+    $stdout.write str
   end
 
   def clear!
